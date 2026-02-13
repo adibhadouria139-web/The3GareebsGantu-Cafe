@@ -1,0 +1,24 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-add-a-developer-facing-content-editing-guide-that-explains-exactly-how-to-change-website-text-images-menu-items-contact-details-and-optional-promo-widgets-in-the-codebase-for-the3gareebsgantu-cafe-site",
+      "featureTitle": "Add a developer-facing content editing guide that explains exactly how to change website text, images, menu items, contact details, and optional promo widgets in the codebase for The3GareebsGantu Cafe site.",
+      "files": [
+        "frontend/CONTENT_EDITING_GUIDE.md"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-13"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Build a cool luxury-brand website for The3GareebsGantu Cafe based on the provided brand/UX blueprint (homepage + About, Menu, Gallery, Contact) with mobile-first, animated modern UI.",
+  "architectural_notes": [
+    "Project is a luxury-brand cafe marketing website with pages: Home, About, Menu, Gallery, Contact.",
+    "Mobile experience is critical (thumb-friendly CTAs, one-tap call, WhatsApp button, fast-loading images).",
+    "UI style direction: rounded corners, soft shadows, micro-animations, parallax scrolling, sticky navigation.",
+    "Add a short content-editing guide (README or docs page) explaining where to change copy, menu data config, and how to replace image assets in /public/assets/generated (or equivalent)."
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-implement-a-cohesive-luxury-youthful-visual-theme-for-the3gareebsgantu-cafe-across-the-entire-site-using-the-provided-palette-and-typography-direction-deep-charcoal-black-121212-warm-coffee-brown-4b2e2e-creamy-beige-f3ecdc-with-accents-gold-foil-d4af37-burnt-orange-e86b2f-soft-sage-green-8fa39a-headings-in-playfair-display-style-and-body-in-poppins-inter-style-rounded-corners-soft-shadows-micro-animations-parallax-accents-and-a-sticky-navigation",
+      "title": "Implement a cohesive luxury-youthful visual theme for The3GareebsGantu Cafe across the entire site using the provided palette and typography direction: Deep Charcoal Black (#121212), Warm Coffee Brown (#4B2E2E), Creamy Beige (#F3ECDC) with accents Gold Foil (#D4AF37), Burnt Orange (#E86B2F), Soft Sage Green (#8FA39A); headings in Playfair Display style and body in Poppins/Inter style; rounded corners, soft shadows, micro-animations, parallax accents, and a sticky navigation.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-the-required-site-pages-and-routing-navigation-home-about-menu-gallery-contact-ensure-navigation-includes-primary-ctas-view-menu-visit-us-and-footer-includes-logo-brand-line-instagram-link-phone-number-and-address",
+      "title": "Create the required site pages and routing/navigation: Home, About, Menu, Gallery, Contact. Ensure navigation includes primary CTAs (View Menu, Visit Us) and footer includes logo/brand line, Instagram link, phone number, and address.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-home-page-to-match-the-provided-structure-1-hero-section-with-cinematic-food-video-like-feel-use-a-performant-fallback-if-video-is-not-available-dark-overlay-headline-luxury-taste-street-soul-subtext-primary-cta-view-menu-secondary-cta-visit-us-2-social-proof-strip-with-star-rating-and-3-short-quotes-3-signature-dishes-grid-of-4-cards-red-sauce-pasta-paneer-pizza-cold-coffee-signature-mocktails-with-photo-name-one-liner-4-why-people-love-us-icon-grid-5-atmosphere-gallery-masonry-grid-with-caption-6-testimonials-slider-7-location-hours-section-with-embedded-map-and-get-directions-cta",
+      "title": "Build the Home page to match the provided structure: (1) Hero section with cinematic food video-like feel (use a performant fallback if video is not available) + dark overlay, headline “Luxury Taste. Street Soul.”, subtext, primary CTA “View Menu”, secondary CTA “Visit Us”; (2) Social proof strip with star rating and 3 short quotes; (3) Signature dishes grid of 4 cards (Red Sauce Pasta, Paneer Pizza, Cold Coffee, Signature Mocktails) with photo, name, one-liner; (4) “Why People Love Us” icon grid; (5) Atmosphere gallery masonry grid with caption; (6) Testimonials slider; (7) Location & hours section with embedded map and “Get Directions” CTA.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-about-page-with-the-specified-headline-and-story-content-using-on-brand-layout-and-imagery-include-the-headline-born-hungry-built-with-love-and-the-provided-story-text-formatted-for-readability-sections-callouts-or-pull-quotes",
+      "title": "Build the About page with the specified headline and story content, using on-brand layout and imagery. Include the headline “Born Hungry. Built With Love.” and the provided story text, formatted for readability (sections, callouts, or pull quotes).",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-menu-page-with-category-sections-pastas-pizzas-shakes-mocktails-coffee-add-ons-each-menu-item-should-display-photo-name-short-description-and-price-and-support-highlight-badges-such-as-best-seller-and-chef-s-choice-provide-a-clean-way-to-maintain-menu-data-as-a-single-constant-config-in-the-frontend-no-admin-ui-required",
+      "title": "Build the Menu page with category sections (Pastas, Pizzas, Shakes, Mocktails, Coffee, Add-ons). Each menu item should display photo, name, short description, and price, and support highlight badges such as “Best Seller” and “Chef’s Choice”. Provide a clean way to maintain menu data as a single constant/config in the frontend (no admin UI required).",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-gallery-page-as-a-responsive-grid-with-hover-effect-soft-zoom-and-the-tagline-every-corner-is-camera-ready-use-a-masonry-like-layout-on-desktop-and-a-performant-grid-on-mobile",
+      "title": "Build the Gallery page as a responsive grid with hover effect (soft zoom) and the tagline “Every Corner is Camera Ready”. Use a masonry-like layout on desktop and a performant grid on mobile.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-contact-page-with-a-simple-contact-form-name-phone-message-plus-a-map-phone-and-instagram-link-include-prominent-mobile-actions-one-tap-call-button-and-whatsapp-chat-button",
+      "title": "Build the Contact page with a simple contact form (Name, Phone, Message) plus a map, phone, and Instagram link. Include prominent mobile actions: one-tap call button and WhatsApp chat button.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-mobile-first-performance-and-ux-requirements-thumb-friendly-button-sizes-fast-loading-images-responsive-spacing-typography-and-smooth-but-lightweight-animations-avoid-heavy-parallax-on-low-end-devices",
+      "title": "Implement mobile-first performance and UX requirements: thumb-friendly button sizes, fast-loading images, responsive spacing/typography, and smooth but lightweight animations (avoid heavy parallax on low-end devices).",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-copywriting-tone-is-applied-throughout-the-site-friendly-confident-slightly-playful-never-corporate-include-at-least-one-playful-warning-style-line-e-g-warning-our-pasta-may-ruin-other-caf-s-for-you-in-an-appropriate-section-home-or-menu",
+      "title": "Ensure copywriting tone is applied throughout the site: friendly, confident, slightly playful, never corporate. Include at least one playful warning-style line (e.g., “Warning: Our pasta may ruin other cafés for you.”) in an appropriate section (Home or Menu).",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-optional-conversion-boosters-as-non-blocking-ui-components-that-can-be-toggled-on-off-via-a-simple-config-limited-time-combo-banner-student-discount-badge-and-placeholders-for-instagram-feed-embed-google-review-widget-do-not-require-third-party-api-keys-allow-simple-iframe-embed-link-based-integration",
+      "title": "Add optional conversion boosters as non-blocking UI components that can be toggled on/off via a simple config: limited-time combo banner, student discount badge, and placeholders for Instagram feed embed + Google review widget (do not require third-party API keys; allow simple iframe/embed-link-based integration).",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-generated-static-image-assets-to-support-the-brand-experience-and-wire-them-into-the-ui-from-frontend-public-assets-generated-do-not-serve-images-via-the-backend",
+      "title": "Add generated static image assets to support the brand experience and wire them into the UI from frontend/public/assets/generated (do not serve images via the backend).",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-developer-facing-content-editing-guide-that-explains-exactly-how-to-change-website-text-images-menu-items-contact-details-and-optional-promo-widgets-in-the-codebase-for-the3gareebsgantu-cafe-site",
+      "title": "Add a developer-facing content editing guide that explains exactly how to change website text, images, menu items, contact details, and optional promo widgets in the codebase for The3GareebsGantu Cafe site.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Design and build the The3GareebsGantu Cafe website following the provided brand DNA, UI style, and page structure (Home, About, Menu, Gallery, Contact).",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Add a simple Motoko backend API to store and retrieve Contact form submissions. Include: createMessage(name, phone, message) and listMessages() for future admin use. Persist data in stable storage suitable for canister upgrades (add migration only if/when state schema changes).",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Provide simple guidance/documentation for how to update site content (text, images, menu items) in the codebase (which files/paths to edit, how to replace assets).",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "The3GareebsGantu Cafe",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

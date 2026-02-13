@@ -1,0 +1,38 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-13T06:28:11.270Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-13",
+        "summary": "Add a developer-facing content editing guide that explains exactly how to change website text, images, menu items, contact details, and optional promo widgets in the codebase for The3GareebsGantu Cafe site.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/CONTENT_EDITING_GUIDE.md"
+        ],
+        "matchedFiles": [
+          "frontend/CONTENT_EDITING_GUIDE.md"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/CONTENT_EDITING_GUIDE.md",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

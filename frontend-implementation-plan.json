@@ -1,0 +1,25 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Add developer-facing content editing guide for The3GareebsGantu Cafe",
+  "requirements": [
+    {
+      "id": "REQ-13",
+      "summary": "Create an English content editing guide that documents exactly where and how to update site text, images, menu content, contact details, and optional promo widgets in the existing codebase.",
+      "acceptanceCriteria": [
+        "A new documentation file exists in the repo (e.g., CONTENT_EDITING_GUIDE.md) written in English.",
+        "The guide explicitly lists the exact files to edit for common changes, including at minimum: frontend/src/config/siteConfig.ts (tagline/description/phone/address/map links/CTAs), frontend/src/data/menuData.ts (menu categories/items/prices/badges/images), frontend/src/config/boostersConfig.ts (promo banner/student discount/embeds toggles and text), frontend/src/components/about/StorySection.tsx (About page story text), and the page components for headings/section copy (frontend/src/pages/HomePage.tsx, AboutPage.tsx, MenuPage.tsx, GalleryPage.tsx, ContactPage.tsx).",
+        "The guide explains how to replace images as static assets under frontend/public/assets/generated, including: keeping the same filenames referenced in code (e.g., hero-bg.dim_1920x1080.jpg, dish-pasta.dim_1200x900.jpg, gallery-01.dim_1600x1200.jpg, logo-wordmark.dim_1200x400.png), and updating image paths in code when filenames change.",
+        "The guide includes at least one end-to-end example for each: updating a phone number/address, editing a menu item price/name, and swapping a hero or dish image.",
+        "The guide does not instruct editing any immutable paths listed by the platform (e.g., frontend/src/hooks/useInternetIdentity.ts(x), frontend/src/hooks/useActor.ts, frontend/src/main.tsx, or anything under frontend/src/components/ui)."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/CONTENT_EDITING_GUIDE.md",
+          "operation": "create",
+          "description": "Add a developer-facing guide (English) describing exactly how to edit content for The3GareebsGantu Cafe: (1) site-wide text/contact/CTAs via frontend/src/config/siteConfig.ts, (2) menu categories/items/prices/badges/images via frontend/src/data/menuData.ts, (3) promo widgets/toggles/text via frontend/src/config/boostersConfig.ts, (4) About story text via frontend/src/components/about/StorySection.tsx, (5) page-level headings/section copy via frontend/src/pages/HomePage.tsx, AboutPage.tsx, MenuPage.tsx, GalleryPage.tsx, ContactPage.tsx. Document static image replacement under frontend/public/assets/generated, explicitly referencing current filenames (frontend/public/assets/generated/hero-bg.dim_1920x1080.jpg, frontend/public/assets/generated/dish-pasta.dim_1200x900.jpg, frontend/public/assets/generated/gallery-01.dim_1600x1200.jpg, frontend/public/assets/generated/logo-wordmark.dim_1200x400.png) and describing what to do if filenames change (update the string references in the relevant TS/TSX files). Include end-to-end examples for: changing phone/address in siteConfig.ts, changing a menu item name/price in menuData.ts, and swapping a hero/dish image by replacing a file in frontend/public/assets/generated and/or updating references in frontend/src/components/home/HeroSection.tsx and frontend/src/data/menuData.ts. Explicitly warn to NOT edit immutable paths (frontend/src/hooks/useInternetIdentity.ts, frontend/src/hooks/useInternetIdentity.tsx, frontend/src/hooks/useActor.ts, frontend/src/main.tsx) and to NOT edit anything under frontend/src/components/ui."
+        }
+      ]
+    }
+  ]
+}
