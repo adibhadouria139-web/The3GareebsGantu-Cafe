@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Book appointments with Lifeline Care Hospital specialists quickly and securely." />
+    <title>Appointment Booking | Lifeline Care Hospital</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="appointment">
+    <div id="nav"></div>
+    <main class="container">
+      <section class="section card">
+        <h1>Appointment Booking</h1>
+        <p>Please provide your details and preferred schedule. Our team will confirm shortly.</p>
+      </section>
+      <section class="section card">
+        <form data-api-ready="true" class="grid cols-3">
+          <div class="form-group"><label for="name">Name</label><input id="name" required /></div>
+          <div class="form-group"><label for="phone">Phone</label><input id="phone" type="tel" required /></div>
+          <div class="form-group"><label for="email">Email</label><input id="email" type="email" required /></div>
+          <div class="form-group"><label for="department">Department</label><select id="department" required></select></div>
+          <div class="form-group"><label for="doctor">Doctor</label><select id="doctor" required></select></div>
+          <div class="form-group"><label for="date">Date</label><input id="date" type="date" required /></div>
+          <div class="form-group"><label for="time">Time</label><input id="time" type="time" required /></div>
+          <div><button class="btn btn-primary" type="submit" style="margin-top:1.6rem">Confirm Booking</button></div>
+        </form>
+        <div class="notice">Appointment booked successfully. We will contact you with confirmation details.</div>
+      </section>
+    </main>
+    <div id="footer"></div>
+    <div id="chatbot"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

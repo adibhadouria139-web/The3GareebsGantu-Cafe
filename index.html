@@ -1,11 +1,96 @@
-<html lang='en'>
-    <head>
-        <meta charset='UTF-8' />
-        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-        <title>The3GareebsGantu Cafe</title>
-    </head>
-    <body>
-        <div id='root'></div>
-        <script type='module' src='/src/main.tsx'></script>
-    </body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Lifeline Care Hospital offers trusted emergency and specialty healthcare with compassionate doctors and modern facilities." />
+    <title>Lifeline Care Hospital | Your Health, Our Priority</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="home">
+    <div id="nav"></div>
+    <main class="container">
+      <section class="hero section">
+        <article class="card">
+          <p class="btn-secondary btn" style="pointer-events:none">24/7 Emergency & Ambulance Ready</p>
+          <h1>Your Health, Our Priority</h1>
+          <p class="subtitle">Lifeline Care Hospital delivers dependable healthcare with advanced diagnostics, expert specialists, and compassionate support for every patient journey.</p>
+          <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1rem">
+            <a href="tel:+18009112273" class="btn btn-primary" aria-label="Emergency call now">📞 Call Now</a>
+            <a href="appointment.html" class="btn btn-secondary">Book Appointment</a>
+          </div>
+        </article>
+        <article class="card">
+          <h2 style="margin-top:0">Quick Appointment</h2>
+          <form data-api-ready="true">
+            <div class="grid cols-2" style="display:grid;grid-template-columns:1fr 1fr;gap:.7rem">
+              <div class="form-group"><label for="q-name">Name</label><input id="q-name" required /></div>
+              <div class="form-group"><label for="q-phone">Phone</label><input id="q-phone" type="tel" required /></div>
+            </div>
+            <div class="form-group"><label for="q-dep">Department</label><select id="q-dep"><option>General Consultation</option><option>Cardiology</option><option>Pediatrics</option></select></div>
+            <button class="btn btn-primary" type="submit">Request Slot</button>
+          </form>
+          <div class="notice">Thank you. Your appointment request has been received.</div>
+        </article>
+      </section>
+
+      <section class="section">
+        <h2>Hospital Services Overview</h2>
+        <div class="grid cols-3">
+          <article class="service-item"><div class="icon">❤️</div><h3>Cardiology</h3><p>Comprehensive heart care with diagnostics, interventions, and rehabilitation plans.</p></article>
+          <article class="service-item"><div class="icon">🧠</div><h3>Neurology</h3><p>Evidence-based treatment for brain, spine, and nervous system conditions.</p></article>
+          <article class="service-item"><div class="icon">🚑</div><h3>Emergency Care</h3><p>Rapid response emergency unit with trauma support and critical care pathways.</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Doctor Highlights</h2>
+        <div id="doctor-grid" class="grid cols-3"></div>
+      </section>
+
+      <section class="section">
+        <h2>Patient Testimonials</h2>
+        <div class="grid cols-3">
+          <article class="testimonial"><p>“Exceptional care from admission to discharge. The staff were reassuring and attentive.”</p><strong>— Emily R.</strong></article>
+          <article class="testimonial"><p>“My father’s emergency treatment was fast and professional. We are deeply grateful.”</p><strong>— Michael T.</strong></article>
+          <article class="testimonial"><p>“The pediatric team explained every step and made my child feel safe.”</p><strong>— Sofia M.</strong></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Trusted by Families</h2>
+        <div class="metrics">
+          <article class="metric"><h3>25+</h3><p>Years of Clinical Excellence</p></article>
+          <article class="metric"><h3>500K+</h3><p>Patients Treated</p></article>
+          <article class="metric"><h3>98%</h3><p>Patient Satisfaction Rate</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Ambulance & Critical Response</h2>
+        <article class="card"><p>Our GPS-enabled ambulance fleet and emergency response teams are available 24/7 with direct coordination to ICU and trauma departments.</p></article>
+      </section>
+
+      <section class="section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="grid cols-3">
+          <article class="faq-item"><h3>Do you accept insurance?</h3><p>Yes, we partner with most major insurance providers. Our billing team can assist pre-visit.</p></article>
+          <article class="faq-item"><h3>Can I book online?</h3><p>Yes, our appointment forms are API-ready and can integrate with your patient portal backend.</p></article>
+          <article class="faq-item"><h3>Is emergency service open 24/7?</h3><p>Absolutely. Our emergency and ambulance services are available all day, every day.</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Health Tips & News</h2>
+        <div class="grid cols-3">
+          <article class="blog-item"><h3>5 Ways to Protect Heart Health</h3><p>Simple lifestyle changes to reduce risk and improve cardiovascular wellness.</p></article>
+          <article class="blog-item"><h3>When to Visit Emergency Care</h3><p>Know warning signs that require urgent medical attention for safer outcomes.</p></article>
+          <article class="blog-item"><h3>Child Wellness Checklist</h3><p>Vaccination, nutrition, sleep, and growth milestones every parent should monitor.</p></article>
+        </div>
+      </section>
+    </main>
+    <div id="footer"></div>
+    <div id="chatbot"></div>
+    <script src="script.js"></script>
+  </body>
 </html>
