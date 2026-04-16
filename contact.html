@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact Lifeline Care Hospital for appointments, emergency care, and patient support." />
+    <title>Contact | Lifeline Care Hospital</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="contact">
+    <div id="nav"></div>
+    <main class="container">
+      <section class="section card">
+        <h1>Contact Lifeline Care Hospital</h1>
+        <p>Address: 250 Health Avenue, Springfield, USA</p>
+        <p>Phone: +1 (800) 555-2200 | Email: care@lifelinehospital.com</p>
+        <p><strong>Emergency Hotline: +1 (800) 911-CARE</strong></p>
+      </section>
+
+      <section class="section grid cols-3">
+        <article class="card" style="grid-column: span 2;">
+          <h2>Hospital Location</h2>
+          <iframe
+            class="map-frame"
+            loading="lazy"
+            title="Lifeline Care Hospital Location"
+            src="https://maps.google.com/maps?q=New%20York%20Hospital&t=&z=13&ie=UTF8&iwloc=&output=embed">
+          </iframe>
+        </article>
+        <article class="card">
+          <h2>Quick Message</h2>
+          <form data-api-ready="true">
+            <div class="form-group"><label for="c-name">Name</label><input id="c-name" required /></div>
+            <div class="form-group"><label for="c-email">Email</label><input id="c-email" type="email" required /></div>
+            <div class="form-group"><label for="c-msg">Message</label><textarea id="c-msg" rows="5" required></textarea></div>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+          </form>
+          <div class="notice">Thank you. Our team will respond to your message shortly.</div>
+        </article>
+      </section>
+    </main>
+    <div id="footer"></div>
+    <div id="chatbot"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
